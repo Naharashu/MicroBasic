@@ -1,0 +1,7 @@
+/home/danilo/projects/MicroBasic/build/CMakeFiles/microbasic.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/edit_cache.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/rebuild_cache.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/list_install_components.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/install.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/install/local.dir
+/home/danilo/projects/MicroBasic/build/CMakeFiles/install/strip.dir

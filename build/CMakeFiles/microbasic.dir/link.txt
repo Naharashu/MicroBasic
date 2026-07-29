@@ -1,0 +1,1 @@
+/home/danilo/.local/clang-bin/c++ -Xlinker --dependency-file=CMakeFiles/microbasic.dir/link.d CMakeFiles/microbasic.dir/src/main.cpp.o CMakeFiles/microbasic.dir/src/lexer.cpp.o CMakeFiles/microbasic.dir/src/parser.cpp.o CMakeFiles/microbasic.dir/src/ast.cpp.o CMakeFiles/microbasic.dir/src/vm.cpp.o -o microbasic
