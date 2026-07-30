@@ -2,6 +2,14 @@
 
 MicroBasic is a BASIC language implementation that compiles to its own VM bytecode. Its written in C++.
 
+## Features
+
+- 256 variables, all in global scope(compared to 26 in TinyBasic)
+- 1024 max recursion depth
+- consts
+- string(indev)
+- fast execution due to usage of register VM
+
 ## What it can execute(or will execute):
 
 ```js
@@ -21,10 +29,10 @@ END
 it will compile to something like
 
 ```js
-load R1 1 // x
-load R2 2 // y
+LOAD_VAR_VAR R1 VARS[x] // x
+LOAD_VAR R2 VARS[y] // y
 add R2 R1 // +x
-load R3 0 // sum
+LOAD_VAR R3 VARS[sum] // sum
 
 _add:
     add R3 R1

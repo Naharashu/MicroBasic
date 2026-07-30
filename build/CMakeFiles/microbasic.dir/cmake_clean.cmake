@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/microbasic.dir/link.d"
+  "CMakeFiles/microbasic.dir/src/analyzer.cpp.o"
+  "CMakeFiles/microbasic.dir/src/analyzer.cpp.o.d"
   "CMakeFiles/microbasic.dir/src/ast.cpp.o"
   "CMakeFiles/microbasic.dir/src/ast.cpp.o.d"
   "CMakeFiles/microbasic.dir/src/lexer.cpp.o"

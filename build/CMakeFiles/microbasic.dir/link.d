@@ -7,6 +7,7 @@ microbasic: \
   CMakeFiles/microbasic.dir/src/parser.cpp.o \
   CMakeFiles/microbasic.dir/src/ast.cpp.o \
   CMakeFiles/microbasic.dir/src/vm.cpp.o \
+  CMakeFiles/microbasic.dir/src/analyzer.cpp.o \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/libm.so \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/libm.so \
@@ -50,6 +51,8 @@ CMakeFiles/microbasic.dir/src/parser.cpp.o:
 CMakeFiles/microbasic.dir/src/ast.cpp.o:
 
 CMakeFiles/microbasic.dir/src/vm.cpp.o:
+
+CMakeFiles/microbasic.dir/src/analyzer.cpp.o:
 
 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 

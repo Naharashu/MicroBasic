@@ -2,8 +2,11 @@
 #define B_ANALYZER_H
 
 #include "lexer.h"
-struct analyzer {
+inline struct analyzer {
+    bool is_error = false;
     void variable_const(const token& t);
-};
+    void isfunction(const token& t);
+} analyzer;
+
 
 #endif

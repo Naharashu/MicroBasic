@@ -1,6 +1,7 @@
-CMakeFiles/microbasic.dir/src/main.cpp.o: \
-  /home/danilo/projects/MicroBasic/src/main.cpp \
-  /home/danilo/projects/MicroBasic/src/include/errors.h \
+CMakeFiles/microbasic.dir/src/analyzer.cpp.o: \
+  /home/danilo/projects/MicroBasic/src/analyzer.cpp \
+  /home/danilo/projects/MicroBasic/src/include/analyzer.h \
+  /home/danilo/projects/MicroBasic/src/include/lexer.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/cstdint \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -138,6 +139,24 @@ CMakeFiles/microbasic.dir/src/main.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/tuple \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/invoke.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ranges_util.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/vector \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_uninitialized.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_vector.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_bvector.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/vector.tcc \
+  /home/danilo/projects/MicroBasic/src/include/table.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/algorithm \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_algo.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/algorithmfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_heap.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/uniform_int_dist.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_tempbuf.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ranges_algo.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ranges_algobase.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/pstl/glue_algorithm_defs.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/pstl/execution_defs.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/array \
+  /home/danilo/projects/MicroBasic/src/include/errors.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/iostream \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/ostream \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ostream.h \
@@ -189,6 +208,4 @@ CMakeFiles/microbasic.dir/src/main.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ostream_print.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ostream.tcc \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/istream \
-  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/istream.tcc \
-  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/cstring \
-  /usr/include/string.h /usr/include/strings.h
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/istream.tcc

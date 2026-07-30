@@ -143,7 +143,7 @@ CMakeFiles/microbasic.dir/src/lexer.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_vector.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/stl_bvector.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/vector.tcc \
-  /home/danilo/projects/MicroBasic/src/include/err.h \
+  /home/danilo/projects/MicroBasic/src/include/errors.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/iostream \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/ostream \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/bits/ostream.h \

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/danilo/projects/MicroBasic/src/analyzer.cpp" "CMakeFiles/microbasic.dir/src/analyzer.cpp.o" "gcc" "CMakeFiles/microbasic.dir/src/analyzer.cpp.o.d"
   "/home/danilo/projects/MicroBasic/src/ast.cpp" "CMakeFiles/microbasic.dir/src/ast.cpp.o" "gcc" "CMakeFiles/microbasic.dir/src/ast.cpp.o.d"
   "/home/danilo/projects/MicroBasic/src/lexer.cpp" "CMakeFiles/microbasic.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/microbasic.dir/src/lexer.cpp.o.d"
   "/home/danilo/projects/MicroBasic/src/main.cpp" "CMakeFiles/microbasic.dir/src/main.cpp.o" "gcc" "CMakeFiles/microbasic.dir/src/main.cpp.o.d"

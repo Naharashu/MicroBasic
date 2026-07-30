@@ -1,5 +1,5 @@
 #include "include/lexer.h"
-#include "include/err.h"
+#include "include/errors.h"
 #include <cctype>
 #include <cstdint>
 #include <cstdlib>

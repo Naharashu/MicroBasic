@@ -1,3 +1,4 @@
+#include "include/errors.h"
 #include <cstring>
 #include <iostream>
 
@@ -19,5 +20,7 @@ int main(int argc, char* argv[]) {
             }
         }
     }
+    microbasic_errors_handler.filename="lalala.bas";
+    microbasic_errors_handler.error("Expected identifier", 2, 3);
     return 0;
 }

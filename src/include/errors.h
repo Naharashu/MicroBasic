@@ -11,7 +11,7 @@ enum class microbasic_errors : uint8_t {
     UNEXPECTED_TOKEN,
 };
 
-struct microbasic_errors_handler {
+inline struct microbasic_error_handler {
     enum microbasic_errors err;
     std::string main_error = "";
     std::string filename;
@@ -34,8 +34,7 @@ struct microbasic_errors_handler {
         std::cerr << filename << ':'
         << line << ':'
         << col << ':'
-        << "\e[0;91m error: " << errmsg
-        << '\e[0m' << '\n';
+        << "\e[0;91m error\e[0m: " << errmsg << '\n';
         err_count++;
     }
 } microbasic_errors_handler;

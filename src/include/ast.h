@@ -25,7 +25,9 @@ enum class ast_kind : uint8_t {
 
 struct ASTNode {
     virtual ~ASTNode() = default;
-    virtual void gen();
+    virtual void gen() {
+        return;
+    };
     ast_kind kind;
 };
 
@@ -46,6 +48,7 @@ struct BinaryNode : ASTNode {
     BinaryNode(astptr l, astptr r, const token& op_) : left(std::move(l)), right(std::move(r)), op(op_) {
         kind = ast_kind::Binary;
     }
+    void gen() override;
 };
 
 struct CondNode : ASTNode {
@@ -55,6 +58,7 @@ struct CondNode : ASTNode {
     CondNode(astptr l, astptr r, const token_type& op_) : left(std::move(l)), right(std::move(r)), op(op_) {
         kind = ast_kind::Condition;
     }
+    void gen() override;
 };
 
 struct UnaryNode : ASTNode {
@@ -63,7 +67,18 @@ struct UnaryNode : ASTNode {
     UnaryNode(astptr l, const token_type& op_) : left(std::move(l)), op(op_) {
         kind = ast_kind::Unary;
     }
+    void gen() override;
 };
 
+struct AssignmentNode : ASTNode {
+    std::string id;
+    astptr value;
+    
+    AssignmentNode(const std::string& name, astptr val) : id(name), value(std::move(val)) {
+        kind = ast_kind::Assignment;
+    }
+
+    void gen() override;
+};
 
 #endif

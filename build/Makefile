@@ -174,6 +174,30 @@ microbasic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/microbasic.dir/build.make CMakeFiles/microbasic.dir/build
 .PHONY : microbasic/fast
 
+src/analyzer.o: src/analyzer.cpp.o
+.PHONY : src/analyzer.o
+
+# target to build an object file
+src/analyzer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microbasic.dir/build.make CMakeFiles/microbasic.dir/src/analyzer.cpp.o
+.PHONY : src/analyzer.cpp.o
+
+src/analyzer.i: src/analyzer.cpp.i
+.PHONY : src/analyzer.i
+
+# target to preprocess a source file
+src/analyzer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microbasic.dir/build.make CMakeFiles/microbasic.dir/src/analyzer.cpp.i
+.PHONY : src/analyzer.cpp.i
+
+src/analyzer.s: src/analyzer.cpp.s
+.PHONY : src/analyzer.s
+
+# target to generate assembly for a file
+src/analyzer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microbasic.dir/build.make CMakeFiles/microbasic.dir/src/analyzer.cpp.s
+.PHONY : src/analyzer.cpp.s
+
 src/ast.o: src/ast.cpp.o
 .PHONY : src/ast.o
 
@@ -307,6 +331,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... microbasic"
+	@echo "... src/analyzer.o"
+	@echo "... src/analyzer.i"
+	@echo "... src/analyzer.s"
 	@echo "... src/ast.o"
 	@echo "... src/ast.i"
 	@echo "... src/ast.s"

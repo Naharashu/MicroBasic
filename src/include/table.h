@@ -34,3 +34,7 @@ inline symbol* search(const std::string& name) {
     }
     return nullptr;
 }
+
+std::array<std::string, 12> builtin_funcs = {
+    "SQRT", "CBRT", "LOG", "EXP", "FTOI"
+};

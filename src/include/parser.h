@@ -4,6 +4,7 @@
 #include "ast.h"
 #include "lexer.h"
 #include <cstdint>
+#include "errors.h"
 #include <stdexcept>
 #include <vector>
 struct parser {
@@ -37,6 +38,23 @@ struct parser {
 
     inline void consume() {
         indx++;
+    }
+
+    inline void consume_token(const token_type& expected) {
+        if(lexed[indx].type!=expected) {
+            if(expected==token_type::ID) microbasic_errors_handler.error("Expected identifier", lexed[indx].line, lexed[indx].col);
+            else microbasic_errors_handler.error("Unexpected token", lexed[indx].line, lexed[indx].col);
+            return;
+        } else {
+            if(indx<lexed.size()) indx++;
+        }
+    }
+
+    inline void sync() {
+        while(indx<lexed.size()) {
+            if(lexed[indx++].type==token_type::NEWLINE) return;
+            else indx++;
+        }
     }
 };
 
